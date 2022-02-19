@@ -1,0 +1,35 @@
+body
+{
+    font-family:"Syne Tactile";
+    background-color:#4DF078;
+    color:#F0292E;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family:"Shizuru";
+    font-size:45pt;
+}
+
+header
+{
+    text-align:center;
+}
+
+#hero, footer
+{
+    color:#1DA1F0;
+    background-color:#F0A541;
+    text-align:center;
+    padding:12px;
+}
+
+#hero img
+{
+    width:250px;
+}
+
+#bio
+{
+    text-align:center;
+}
