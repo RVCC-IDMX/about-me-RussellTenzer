@@ -33,3 +33,16 @@ header
 {
     text-align:center;
 }
+
+#Hobbies h2
+{
+    text-align:center;
+}
+
+#Hobbies ul
+{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:2rem;
+}
