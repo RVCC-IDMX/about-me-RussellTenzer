@@ -3,6 +3,8 @@ body
     font-family:"Syne Tactile";
     background-color:#4DF078;
     color:#F0292E;
+    font-size:30pt;
+    text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -52,4 +54,10 @@ header
     text-align:center;
     margin-left:auto;
     margin-right:auto;
+}
+
+#Gallery ul
+{
+    color:rgb(0,0,0);
+    font-size:20pt;
 }
