@@ -3,8 +3,6 @@ body
     font-family:"Syne Tactile";
     background-color:#4DF078;
     color:#F0292E;
-    font-size:30pt;
-    text-align:center;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -33,6 +31,7 @@ header
 
 #bio
 {
+    font-size:25pt;
     text-align:center;
 }
 
@@ -43,6 +42,7 @@ header
 
 #Hobbies ul
 {
+    font-size:20pt;
     width:50%;
     margin-left:auto;
     margin-right:auto;
@@ -51,6 +51,7 @@ header
 
 #Gallery
 {
+    font-size:25pt;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -60,4 +61,16 @@ header
 {
     color:rgb(0,0,0);
     font-size:20pt;
+}
+
+#Johnson h4
+{
+    text-align:center;
+}
+
+#Johnson div
+{
+    color:black;
+    font-size:20pt;
+    text-align:center;
 }
