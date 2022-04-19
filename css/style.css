@@ -38,6 +38,7 @@ header
 #Hobbies h2
 {
     text-align:center;
+    margin:.1rem;
 }
 
 #Hobbies ul
@@ -47,6 +48,16 @@ header
     margin-left:auto;
     margin-right:auto;
     padding-bottom:2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#Hobbies li
+{
+    font-style:italic;
+    text-decoration:underline;
+    text-align:center;
 }
 
 #Gallery
@@ -61,11 +72,24 @@ header
 {
     color:rgb(0,0,0);
     font-size:20pt;
+    margin-left:auto;
+    margin-right:auto;
+    width:550px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#Gallery li
+{
+    font-style:italic;
+    text-decoration:underline dashed;
 }
 
 #Johnson h4
 {
     text-align:center;
+    margin:.1rem;
 }
 
 #Johnson div
@@ -74,3 +98,85 @@ header
     font-size:20pt;
     text-align:center;
 }
+
+#Johnson p::first-letter
+{
+    color:black;
+    font-size:65pt;
+    border:5px solid #F0292E;
+    padding-left:0.5x;
+    padding-right:0.5x;
+    float:left;
+    margin-right:0.5x;
+    margin-top:0.25x;
+    background-image:radial-gradient(#F0292E,white,#F0292E,white,#F0292E,white,#F0292E,white);
+    font-family:"Times New Roman";
+}
+
+/* Alt + Shift + A = Comment Template */
+/* Tablet Size Display */
+@media screen and (min-width:60em){
+    figure img {
+        max-width:100%;
+    }
+
+    figure{
+        display:grid;
+        grid-template-columns:2fr 1fr;
+    }
+
+    figcaption{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:2rem;
+        margin-left:1rem;
+    }
+
+    figure img{
+        width:100%;
+    }
+
+    #Johnson div{
+        max-width:100%;
+        columns:20rem;
+    }
+}
+
+/* Large Screen Display */
+@media screen and (min-width:100em){
+    figure{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+/*Floats
+float:left;
+float:right;
+ex. margin:1n;
+ex. margin-left:1n;
+
+clear:both;
+clear:left;
+clear:right;
+
+Drop Caps
+artical p::first-letter;
+{
+    color:___;
+    font-size:45pt;
+    border:1px solid:black;
+    padding-left:.5x;
+    padding-right:.5x;
+    float:left;
+    margin-right:.5x;
+    margin-top:.25x;
+    background-color:___;
+    background-image:radial-gradient(___,____,___)
+    border-style:5px double:black;
+    font-family:"Times New Roman";
+}
+
+
+*/
