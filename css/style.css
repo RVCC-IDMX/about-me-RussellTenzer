@@ -139,15 +139,27 @@ header
 
     #Johnson div{
         max-width:100%;
-        columns:20rem;
+        columns:30rem;
     }
 }
 
 /* Large Screen Display */
 @media screen and (min-width:100em){
-    figure{
+    #Gallery h3{
+        grid-column:1/-1;
+    }
+    
+    #Gallery{
         display:grid;
         grid-template-columns:1fr 1fr 1fr;
+    }
+
+    #Gallery ul{
+        display:none;
+    }
+
+    figure{
+        display:block;
     }
 }
 
