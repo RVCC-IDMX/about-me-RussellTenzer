@@ -179,6 +179,25 @@ header
     margin:2rem auto;
 }
 
+/* Contact Form Display Size Formatting */
+@media screen and (min-width:25em){
+    #contact{
+        max-width:375px;
+    }
+}
+
+@media screen and (min-width:60em){
+    #contact{
+        max-width:900px;
+    }
+}
+
+@media screen and (min-width:100em){
+    #contact{
+        max-width:1500px;
+    }
+}
+
 /*Floats
 float:left;
 float:right;
