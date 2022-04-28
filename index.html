@@ -183,6 +183,69 @@
 
         </section>
 
+        <section id="contact">
+
+            <h2>Contact Us:</h2>
+
+            <form id="contactForm" name="contactForm"></form>
+
+            <fieldset>
+
+                <legend>Contact Form</legend>
+
+                <div id="formElements" name="formElements" method="post" data-netlify="true">
+
+                    <!-- Name -->
+                    <lable for="name">Name (required)</lable>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+
+                    <!-- Email -->
+                    <lable for="email">Email (required)</lable>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+                    <!-- Phone -->
+                    <lable for="phone">Phone (optional)</lable>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+                    <!-- Phonetype -->
+                    <lable for="phonetype">Phone Type (optional)</lable>
+                    <select id="phonetype" name="phonetype">
+                        <option value="" selected>Select phone type</option>
+                        <option val="Mobile">Mobile</option>
+                        <option val="Work">Work</option>
+                        <option val="Home">Home</option>
+                    </select>
+
+                    <!-- Message -->
+                    <lable for="message">Message (optional)</lable>
+                    <textarea id="message" name="message" rows="8" placeholder="Message."></textarea>
+
+                    <!-- Reply -->
+                    <fieldset>
+                        <legend>Would you like a reply?</legend>
+                        
+                        <ul>
+                            <li>
+                                <input type="radio" id="message-yes" name="reply" value="Yes, a reply please.">
+                                <lable for="message-yes">Yes, a reply would be nice.</lable>
+                            </li>
+                            <li>
+                                <input type="radio" id="message-no" name="reply" value="No reply please." checked>
+                                <lable for="message-no">No, thanks.</lable>
+                            </li>
+                        </ul>
+
+                    </fieldset>
+
+                    <!-- Submit -->
+                    <button type="submit">Send</button>
+
+                </div>
+
+            </fieldset>
+
+        </section>
+
     </main>
 
     <footer>
