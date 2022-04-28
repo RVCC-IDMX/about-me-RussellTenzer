@@ -163,6 +163,22 @@ header
     }
 }
 
+/* Contact Form */
+#contact h2{
+    text-align:center;
+}
+
+#formElements{
+    display:grid;
+    row-gap:.5em;
+}
+
+#contact{
+    padding:1rem;
+    max-width:600px;
+    margin:2rem auto;
+}
+
 /*Floats
 float:left;
 float:right;
